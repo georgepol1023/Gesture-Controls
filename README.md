@@ -1,23 +1,23 @@
 # Hand Gesture Brightness Control
 
-This project allows you to control your computer screen brightness using **hand gestures** detected through your webcam. Specifically, it uses the distance between your **index** and **middle fingers** to adjust the brightness in real time.
+Control your screen brightness using hand gestures with your webcam! This project uses **MediaPipe** for hand detection and **screen_brightness_control** to adjust brightness on Windows.
+
+---
 
 ## Features
 
-- Detects a single hand using **MediaPipe Hands**.
-- Controls screen brightness with **index + middle finger distance**.
-- Displays a **brightness bar** on the webcam feed.
-- Real-time visualization of hand landmarks and gesture.
+- **Right hand (on screen left)**: Control brightness by pinching or spreading **two fingers**.  
+- **Left hand (on screen right)**: Control brightness by moving your **fist up and down**.  
+- Supports **simultaneous use** of both hands.  
+- Visual feedback with **landmarks** and **brightness bar**.  
+- Camera flip is accounted for.
+
+---
 
 ## Requirements
 
-- Python 3.10+
-- Windows 10 or 11
-- Webcam
-
-### Python Packages
-
-Install the required packages:
+- Python 3.10+  
+- Libraries:
 
 ```bash
 pip install opencv-python mediapipe numpy screen_brightness_control

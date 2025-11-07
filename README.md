@@ -7,7 +7,7 @@ Control your screen brightness using hand gestures with your webcam! This projec
 ## Features
 
 - **Right hand (on screen left)**: Control brightness by pinching or spreading **two fingers**.  
-- **Left hand (on screen right)**: Control brightness by moving your **fist up and down**.  
+- **Left hand (on screen right)**: Control brightness by moving your **hand up and down**.  
 - Supports **simultaneous use** of both hands.  
 - Visual feedback with **landmarks** and **brightness bar**.  
 - Camera flip is accounted for.

@@ -31,10 +31,10 @@ while True:
 
             if handedness == "Right":
                 # Actually on screen: left hand
-                # Fist mode
+                # Hand mode
                 center_y = int(np.mean([p[1] for p in lm_list]))
                 brightness = int((1 - (center_y / img_h)) * 100)
-                cv2.putText(img, "Left Hand Mode (Fist)", (10, 50),
+                cv2.putText(img, "Left Hand Mode", (10, 50),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
 
             elif handedness == "Left":

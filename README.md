@@ -1,46 +1,23 @@
-# Hand Gesture Volume & Brightness Control (Python + Mediapipe)
+# Hand Gesture Brightness Control
 
-This project allows you to control both your **system volume** and your **screen brightness** using simple hand gestures in front of your webcam.
+This project allows you to control your computer screen brightness using **hand gestures** detected through your webcam. Specifically, it uses the distance between your **index** and **middle fingers** to adjust the brightness in real time.
 
-✅ Thumb + Index = Volume Control  
-✅ Index + Middle = Brightness Control  
+## Features
 
-Below you will find:
-- Project description  
-- Features  
-- Installation  
-- Full working code  
-- Usage instructions  
+- Detects a single hand using **MediaPipe Hands**.
+- Controls screen brightness with **index + middle finger distance**.
+- Displays a **brightness bar** on the webcam feed.
+- Real-time visualization of hand landmarks and gesture.
 
-Everything in ONE file.
+## Requirements
 
----
+- Python 3.10+
+- Windows 10 or 11
+- Webcam
 
-## ✋ Features
+### Python Packages
 
-### 🎚️ Volume Control
-Thumb + Index finger distance controls system volume:
-
-- Fingers **close** → lower volume  
-- Fingers **far apart** → higher volume  
-
-### 💡 Brightness Control
-Index + Middle finger distance controls brightness:
-
-- Fingers **close** → dimmer screen  
-- Fingers **far apart** → brighter screen  
-
-### ✅ Additional Features
-- Real-time webcam tracking  
-- Accurate hand landmark detection (Mediapipe)  
-- Volume & brightness bars show feedback  
-- Works smoothly on any Windows machine  
-
----
-
-## 📦 Installation
-
-Install all dependencies:
+Install the required packages:
 
 ```bash
-pip install opencv-python mediapipe numpy pycaw comtypes screen-brightness-control
+pip install opencv-python mediapipe numpy screen_brightness_control

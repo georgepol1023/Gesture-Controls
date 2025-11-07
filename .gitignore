@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Temporary files
+*.log
+*.tmp
+
+# Byte-compiled
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
